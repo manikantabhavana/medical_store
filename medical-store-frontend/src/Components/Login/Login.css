@@ -1,0 +1,100 @@
+.login-main-cont{
+    position: fixed;
+    top:18%;
+    display: flex;
+    width: 50%;
+    padding:1% 5%;
+    left:20%;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 5px 0px gray;
+}
+.login-left-cont{
+    flex: 0.6;
+}
+
+.login-left-cont p{
+    font-size: 0.8rem;
+}
+
+
+.login-right-cont{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    justify-content: flex-start;
+}
+
+.login-right-cont p{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+
+
+
+.input-container {
+    position: relative;
+    margin-top: 10%;
+    width: 140%;
+  }
+  
+  
+  .input-field {
+    display: block;
+    width: 100%;
+    padding: 0;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    background-color: transparent;
+  }
+  
+
+  .input-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 16px;
+    color: rgba(204, 204, 204, 0);
+    pointer-events: none;
+    transition: all 0.3s ease;
+  }
+  
+
+  .input-highlight {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0;
+    background-color: #FBD122;
+    transition: all 0.3s ease;
+  }
+  
+ 
+  .input-field:focus + .input-label {
+    top: -30px;
+    font-size: 16px;
+    color: #FBD122;
+  }
+  
+  .input-field:focus + .input-label + .input-highlight {
+    width: 100%;
+  }
+
+  .login-right-cont button{
+    background-color: #FBD122;
+    border: none;
+    border-radius: 1rem;
+    margin-top: 10%;
+    padding:3% 0 ;
+    box-shadow: 0px 3.08px 10.78px 0px #00000040;
+    font-weight: 550;
+    
+
+  }
+  

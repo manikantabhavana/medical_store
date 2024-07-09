@@ -1,0 +1,22 @@
+.download-poster-cont{
+    width: 80vw;
+    display: flex;
+    
+    margin: auto;
+    margin-top: 10% !important;
+   
+   
+}
+
+.download-poster-cont img{
+    margin-left: auto;
+    max-width: 100%;
+}
+
+
+@media screen and (max-width:950px){
+    .download-poster-cont{
+        width: 95%;
+    }
+    
+}

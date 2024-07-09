@@ -1,0 +1,33 @@
+
+
+.adds-cont h2{
+    margin-left: 7.5%;
+}
+
+.adds-main-cont{
+    display: flex;
+    justify-content: center;
+    gap:5rem;
+}
+
+.add-img-cont{
+    width: 40%;
+}
+
+.add-img-cont img{
+    max-width: 100%;
+}
+
+
+@media screen and (max-width:950px){
+    .adds-main-cont{
+        flex-direction: column;
+        gap:1rem;
+
+    }
+    .add-img-cont{
+        width: 80%;
+        margin: auto;
+    }
+    
+}
